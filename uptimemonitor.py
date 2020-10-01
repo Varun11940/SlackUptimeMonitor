@@ -15,7 +15,7 @@ URLS_TO_CHECK = ["http://example.com",
 # https://api.slack.com/docs/oauth-test-tokens
 SLACK_TOKEN = "YOUR_TOKEN_HERE"
 
-# Where you want to receive your notifications ?
+# Where you prefer to receive your notifications ?
 
 # you can get it using list_channels and channel_info or click on the channel name
 # click on add app or integration and you can view it's id in the webpage redirection (you have to be fast because it redirects it to another page)
@@ -103,7 +103,7 @@ def get_status_code(xurl):
 # ~~~~~~~~~~~~~~~~~~~~~~~~ THE MAIN ~~~~~~~~~~~~~~~~~~~~~~~~
 if __name__ == '__main__':
 
-    # First test if you have the correct token
+    # First check if you have the correct token
     # print(slack_client.api_call("auth.test"))
 
     status_file = {}
